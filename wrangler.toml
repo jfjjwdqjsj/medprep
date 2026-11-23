@@ -10,7 +10,7 @@ run_worker_first = ["/api/*", "/acces/*"]
 [[d1_databases]]
 binding = "DB"
 database_name = "medprep-db"
-database_id = "REPLACE_WITH_D1_DATABASE_ID"
+database_id = "dfc3a0ad-c4fa-4d96-b85a-e86dfa848536"
 migrations_dir = "migrations"
 
 [[r2_buckets]]
