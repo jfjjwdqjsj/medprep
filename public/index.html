@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>MedPrep — AI Medical Exam Trainer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div id="app">
+<aside class="sidebar">
+  <div class="brand"><div class="brand-mark">✚</div><div><b>MedPrep</b><small>AI Medical Trainer</small></div></div>
+  <div class="side-label">MENIU PRINCIPAL</div>
+  <nav>
+    <button class="nav active" data-page="dashboard"><span>▦</span> Dashboard</button>
+    <button class="nav" data-page="bilete"><span>▤</span> Bilete</button>
+    <button class="nav" data-page="invatare"><span>◉</span> Învățare</button>
+    <button class="nav" data-page="flashcards"><span>▱</span> Flashcard-uri</button>
+    <button class="nav" data-page="teste"><span>✓</span> Teste</button>
+    <button class="nav" data-page="progres"><span>▥</span> Progres</button>
+    <button class="nav" data-page="biblioteca"><span>▣</span> Biblioteca mea</button>
+  </nav>
+  <div class="sidebar-bottom"><div class="secure"><span>●</span><div><b>Date securizate</b><small>Acces personal</small></div></div><button id="copyLink" class="outline full">↗ Copiază linkul meu</button></div>
+</aside>
+<main class="main">
+<header class="topbar"><div><div class="eyebrow">PLATFORMA TA DE STUDIU</div><h1 id="pageTitle">Dashboard</h1></div><div class="top-actions"><span class="status-dot"></span><span class="top-status">Spațiu personal</span><div class="avatar">M</div></div></header>
+<section id="content"></section>
+<footer>MedPrep · Platformă educațională · Verificați informațiile medicale cu bibliografia și cadrele didactice.</footer>
+</main>
+</div>
+<div id="toast" class="toast"></div>
+<script src="/app.js"></script>
+</body></html>
