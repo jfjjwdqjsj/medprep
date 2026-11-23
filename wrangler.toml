@@ -1,0 +1,18 @@
+name = "medprep"
+main = "src/index.js"
+compatibility_date = "2026-11-23"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = ["/api/*", "/acces/*"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "medprep-db"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+migrations_dir = "migrations"
+
+[[r2_buckets]]
+binding = "FILES"
+bucket_name = "medprep-files"
